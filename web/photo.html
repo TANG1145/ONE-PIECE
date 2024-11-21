@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONE PIECE——影视图片</title>
+    <link rel="stylesheet" href="./style.css"></link>
+    <style>
+        .main{
+            width:100%;
+            height:auto;
+            display: flex;
+            padding:10px 0px;
+            flex-wrap:wrap;
+            justify-content: space-between;
+        }
+        .main img{
+            width:calc(100%/3-1%);
+            margin:.5%;
+            border:2px solid crimson;
+            padding:10px;
+        }
+        .main img:hover{
+            transition:all .3s;
+            border:30px solid rgb(172, 205, 234);
+            cursor:pointer;
+            box-shadow: 5px 5px 10px slategray;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <img src="../image/23.jpeg" alt="" class="banner">
+    <!--导航栏：-->
+    <div class="menus">
+        <a href="index.html">网站主页</a>
+        <a href="renwu.html">人物成员</a>
+        <a href="photo.html"class="active">【影视图片】</a>
+        <a href="juqing.html">剧情介绍</a>
+        <a href="contact us.html">联系我们</a>
+    </div>
+    
+    <div class="card">
+        相册图片
+    </div>
+    
+    <!--主体部分：-->
+    <div class="main">
+        <!--九宫格排版-->
+        <img src="../image/7.png" alt="">
+        <img src="../image/9.jpg" alt="" >
+        <img src="../image/25.jpg" alt="">
+        <img src="../image/24.jpeg" alt="">
+        <img src="../image/14.jpeg" alt="">
+        <img src="../image/26.jpg" alt="">
+        <img src="../image/27.jpg" alt="">
+        <img src="../image/28.jpg" alt="">
+        <img src="../image/29.jpg" alt="">
+    </div>
+    </div>
+    <!--div class="title">ONE PIECE展览相册</div-->
+    
+    
+    <div class="footer">
+        ONE PIECE(TJJ)@2024版权所有
+    </div>
+</body>
+</html>
